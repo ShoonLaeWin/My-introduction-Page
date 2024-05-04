@@ -1,0 +1,84 @@
+div #c1{
+    border-style: outset;
+    border-color: white;
+}
+
+div{
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    margin: 50px;
+    padding: 20px;
+}
+
+#c1{
+    display: flex;  /*making the nav blog besides the title*/
+}
+
+.intro, .bar{
+    flex: 1;
+    padding: 20px;
+}
+
+body{
+    background: linear-gradient(skyblue, lightgreen);
+}
+
+h2, h3{
+    color:rgb(124, 65, 180);
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: auto;
+    background-color: rgb(70, 130, 153) ;
+    padding: 20px;
+    
+}
+
+nav ul li {
+    display: inline;  /* displaying horizontally*/
+    margin: 60px;  /* spacing between nav  */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: lavender;
+    color: violet;
+    font-weight: bold;
+
+}
+
+/* printing hobby and dream area on one line*/ 
+#hobbies{
+    display: flex;
+}
+
+.hobby,.dream{
+    flex:1;
+    padding:20px;
+}
+
+iframe{
+    margin-left: 50px;
+}
+
+td{
+    text-align: center;
+}
+
+.subject:hover{
+    background: rgb(112, 179, 201);
+    color: red;
+}
+
+
+footer{
+    font-size:larger;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
